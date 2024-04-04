@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 20px 45px;
+  border: 5px solid #fff;
+  border-radius: 50px;
+}
+.meta {
+  text-align: center;
+  margin: 300px 0;
+  flex-wrap: wrap;
+}
+.meta2 {
+  text-align: center;
+  margin: 300px 0;
+  flex-wrap: wrap;
+}
+.href {
+  margin: 300px 0;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.href a {
+  text-decoration: none;
+  color: black;
+}
+.href2:hover {
+  background-color: rgb(200, 20, 20);
+  color: #fff;
+}
+.href3:hover {
+  background-color: aqua;
+}

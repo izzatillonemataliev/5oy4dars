@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="meta2">
+      <button id="color1" onclick="colorClick()" class="color1">Color</button>
+    </div>
+
+<body onclick="changeBackgroundColor2()">
+    <script>
+        function changeBackgroundColor2() {
+            var randomColor = getRandomColor();
+            document.body.style.backgroundColor = randomColor;
+        }
+
+        function getRandomColor() {
+            var r = Math.floor(Math.random() * 256); // Random red value between 0 and 255
+            var g = Math.floor(Math.random() * 256); // Random green value between 0 and 255
+            var b = Math.floor(Math.random() * 256); // Random blue value between 0 and 255
+            return 'rgb(' + r + ',' + g + ',' + b + ')'; // Construct the RGB color
+        }
+    </script>
+</body>
+</html>
+
